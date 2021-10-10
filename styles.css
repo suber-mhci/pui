@@ -1,8 +1,10 @@
+/* style settting for whole page  */
+
 body, html {
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* top navigation bar  */
 ul {
     list-style-type: none;
     margin: 0;
@@ -62,12 +64,12 @@ li a {
     width: 400px;
   }
   
-
+/* website logo on navigation bar  */
 #logo {
     width: 30%
 }
 
-
+/* home page image banner */
   #homeImage {
       width: 100%
   }
@@ -152,7 +154,7 @@ li a {
     background-color: black;
   }
 
-
+/* Product details page  */
   .detail-column .btn {
     background-color: #DCA557;
     color: white;
@@ -173,7 +175,7 @@ li a {
       border: none;
   }
 
-
+/* Product details page color buttons  */
 #strawberryBtn {
     background-color: #E9829B;
 }

@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- link to CSS -->
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
+    <!-- 
+        top navigation bar to move between pages
+    -->
     <ul>
-        <img id="logo" src="images/homePage/logo.png" alt="home deal image">
+        <a href="index.html">
+            <img id="logo" src="images/homePage/logo.png" alt="home deal image">
+        </a>
         <li><a href="index.html">Cart</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="#contact">About</a></li>
         <li><a href="#about">Home</a></li>
     </ul>
 
+    <!-- 
+        bottom navigation bar that goes to product page filtered by category
+    -->
     <ul class="item-nav">
         <input type="text" placeholder="Find my gear...">
         <li><a href="#home">All</a></li>
@@ -21,12 +30,17 @@
         
     </ul>
 
+    <!-- 
+        home page deal image 
+    -->
     <div class = "container">
         <img id="homeImage" src="images/homePage/homePic.png" alt="home deal image">
         <button class="btn">buy now</button>
     </div>
 
-
+    <!-- 
+        top deals products 
+    -->
     <div class="row">
         <h1>Top Deals</h1>
         <div class="column">
@@ -46,6 +60,9 @@
         </div>
     </div>
 
+    <!-- 
+        new arrivals products 
+    -->
     <div class="row">
         <h1>New Arrivals</h1>
         <div class="column">
@@ -66,7 +83,9 @@
     </div>
 
 
-    
+    <!-- 
+        sticky footer with address
+    -->
     <div>
         <footer>1234 Adventure Avenue, Pittsburgh, PA 56789</footer>
     </div>
